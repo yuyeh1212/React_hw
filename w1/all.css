@@ -1,21 +1,59 @@
-.card-img-top {
-    height: 250px;
-    object-fit: cover;
-  }
-  
-  .images {
-    width: 100px;
-    height: 100px;
-    margin: 0.5rem;
-  }
-  
-  a.card {
-    text-decoration: none;
-    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-  }
-  
-  a.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  
+/* 設置全局字體與背景 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* 標題樣式 */
+h2 {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* 表格樣式 */
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: center;
+}
+
+.table th {
+  background-color: #e9ecef;
+}
+
+/* 按鈕樣式 */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* 卡片圖片縮放效果 */
+.card-img-top.primary-image {
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+.card .images {
+  object-fit: cover;
+  margin: 5px;
+}
+
+/* 整體間距與調整 */
+.container {
+  padding: 20px;
+}
