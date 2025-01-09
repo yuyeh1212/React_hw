@@ -1,0 +1,122 @@
+[
+  {
+    "title": "電子書閱讀器",
+    "category": "3C",
+    "description": "四向翻轉，直讀橫讀都流暢",
+    "content": "電子閱讀器*1+USB-C 充電線*1+保護殼*1",
+    "origin_price": 10000,
+    "price": 9000,
+    "unit": "個",
+    "is_enabled": 5,
+    "imageUrl": "https://images.pexels.com/photos/1475290/pexels-photo-1475290.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "鍵盤滑鼠套裝",
+    "category": "3C",
+    "description": "象牙白鍵盤+滑鼠",
+    "content": "滑鼠*1+鍵盤*1",
+    "origin_price": 500,
+    "price": 450,
+    "unit": "套",
+    "is_enabled": 10,
+    "imageUrl": "https://images.pexels.com/photos/399160/pexels-photo-399160.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "錢包",
+    "category": "生活物品",
+    "description": "粉色的錢包",
+    "content": "錢包*1",
+    "origin_price": 300,
+    "price": 200,
+    "unit": "個",
+    "is_enabled": 2,
+    "imageUrl": "https://images.pexels.com/photos/910122/pexels-photo-910122.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "西裝",
+    "category": "服飾",
+    "description": "帥氣的西裝",
+    "content": "西裝",
+    "origin_price": 500,
+    "price": 350,
+    "unit": "件",
+    "is_enabled": 20,
+    "imageUrl": "https://images.pexels.com/photos/325876/pexels-photo-325876.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "迴紋針",
+    "category": "文具",
+    "description": "迴紋針",
+    "content": "迴紋針",
+    "origin_price": 50,
+    "price": 20,
+    "unit": "個",
+    "is_enabled": 100,
+    "imageUrl": "https://images.pexels.com/photos/750914/pexels-photo-750914.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "鋼筆",
+    "category": "文具",
+    "description": "鋼筆",
+    "content": "鋼筆",
+    "origin_price": 200,
+    "price": 125,
+    "unit": "支",
+    "is_enabled": 5,
+    "imageUrl": "https://images.pexels.com/photos/372748/pexels-photo-372748.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "t shirt",
+    "category": "服飾",
+    "description": "各式各樣t shirt",
+    "content": "t shirt",
+    "origin_price": 250,
+    "price": 150,
+    "unit": "件",
+    "is_enabled": 20,
+    "imageUrl": "https://images.pexels.com/photos/2294342/pexels-photo-2294342.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "水壺",
+    "category": "生活物品",
+    "description": "運動水壺",
+    "content": "水壺",
+    "origin_price": 500,
+    "price": 300,
+    "unit": "個",
+    "is_enabled": 8,
+    "imageUrl": "https://images.pexels.com/photos/1342529/pexels-photo-1342529.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "手錶",
+    "category": "錶",
+    "description": "手錶",
+    "content": "手錶",
+    "origin_price": 2500,
+    "price": 2250,
+    "unit": "個",
+    "is_enabled": 5,
+    "imageUrl": "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  },
+  {
+    "title": "手錶",
+    "category": "錶",
+    "description": "手錶",
+    "content": "手錶",
+    "origin_price": 3000,
+    "price": 2500,
+    "unit": "個",
+    "is_enabled": 3,
+    "imageUrl": "https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg?auto=compress&cs=tinysrgb&w=504&h=300&dpr=1",
+    "imagesUrl": []
+  }
+]

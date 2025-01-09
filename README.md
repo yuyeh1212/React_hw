@@ -1,9 +1,8 @@
-# React_hw
+# React + Vite
 
-2024  
-12/30 第一週作業  
-商品列表:https://yuyeh1212.github.io/React_hw/w1/index.html  
-2025  
-1/2 Kata 練習(預錄影片+BMI) + 第一週作業 CSS 調整修正  
-預錄影片:https://yuyeh1212.github.io/React_hw/w1_Kata/index.html  
-BMI:https://yuyeh1212.github.io/React_hw/w1_BMIKata/index.html  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
