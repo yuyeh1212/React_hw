@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>第二週作業</title>
+    <link rel="stylesheet" href="./style/style.css" />
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -39,7 +40,9 @@
               axios.defaults.headers.common["Authorization"] = token;
               console.log("登入成功");
             })
-            .catch((err) => console.dir(err));
+            .catch((err) => {
+              console.dir(err);
+            });
         };
 
         // 檢查登入狀態
