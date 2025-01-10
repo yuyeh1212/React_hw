@@ -18,10 +18,16 @@ const readExcelFile = (filePath) => {
 const processItem = (item, index) => {
   console.log(`處理第 ${index + 1} 筆資料:`, item);
 
-  // 初始化多張圖片
-  const imagesUrl = item.imagesUrl
-    ? item.imagesUrl.split(",").map((url) => url.trim())
+  // 單一圖片連結
+  const imageUrl = item.imageUrl ? item.imageUrl.trim() : "";
+
+  // 多張圖片連結處理
+  const imagesUrls = item.imagesUrls
+    ? item.imagesUrls.split(",").map((url) => url.trim())
     : [];
+
+  // 除錯訊息
+  console.log(`第 ${index + 1} 筆的 imagesUrls:`, imagesUrls);
 
   return {
     title: item.title || "未提供標題",
@@ -32,8 +38,8 @@ const processItem = (item, index) => {
     price: parseFloat(item.price) || 0,
     unit: item.unit || "未定義",
     is_enabled: parseInt(item.is_enabled, 10) || 0,
-    imageUrl: item.imageUrl || "",
-    imagesUrl,
+    imageUrl,
+    imagesUrls,
   };
 };
 
