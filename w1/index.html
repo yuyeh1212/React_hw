@@ -176,23 +176,6 @@
       const root = ReactDOM.createRoot(document.getElementById("root"));
       root.render(<App />);
     </script>
-    <style>
-      .card-img-top {
-        height: 250px;
-      }
-      /* 調整圖片，使用覆蓋，多於裁切不讓圖片變形 */
-      .object-fit {
-        object-fit: cover;
-      }
-      a.card {
-        text-decoration: none;
-        transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
-      }
-      a.card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-      }
-    </style>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
