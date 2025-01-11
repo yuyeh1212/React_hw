@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>第一週作業</title>
     <link rel="stylesheet" href="./all.css" />
-    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <link
@@ -90,16 +90,16 @@
                 </tr>
               </thead>
               <tbody>
-                {products.map((item) => (
-                  <tr key={item.id}>
-                    <td>{item.title}</td>
-                    <td>{item.originPrice}</td>
-                    <td>{item.price}</td>
-                    <td>{item.isEnabled ? "啟用" : "未啟用"}</td>
+                {products.map((product) => (
+                  <tr key={product.id}>
+                    <td>{product.title}</td>
+                    <td>{product.originPrice}</td>
+                    <td>{product.price}</td>
+                    <td>{product.isEnabled ? "啟用" : "未啟用"}</td>
                     <td>
                       <button
                         className="btn btn-sm btn-primary"
-                        onClick={() => onViewDetails(item)}
+                        onClick={() => onViewDetails(product)}
                       >
                         查看細節
                       </button>
@@ -140,7 +140,6 @@
                       src={img}
                       className="img-thumbnail"
                       alt={`圖片 ${index + 1}`}
-                      style={{ width: "100px", height: "100px" }}
                     />
                   ))}
                 </div>
@@ -174,7 +173,8 @@
         );
       }
 
-      ReactDOM.render(<App />, document.getElementById("root"));
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
     </script>
     <style>
       .card-img-top {

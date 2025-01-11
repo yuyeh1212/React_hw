@@ -41,16 +41,30 @@ h2 {
   background-color: #0056b3;
 }
 
-/* 卡片圖片縮放效果 */
-.card-img-top.primary-image {
-  object-fit: cover;
+/* 卡片圖片樣式 */
+.card-img-top {
   height: 250px;
+  object-fit: cover; /* 保持主圖比例並裁切 */
   width: 100%;
 }
 
-.card .images {
-  object-fit: cover;
-  margin: 5px;
+/* 多圖圖片的樣式 */
+.img-thumbnail {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* 保持圖片比例並裁切 */
+  margin: 5px; /* 多圖之間的間距 */
+}
+
+/* 卡片連結樣式 */
+a.card {
+  text-decoration: none;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+a.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /* 整體間距與調整 */
