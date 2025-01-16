@@ -1,56 +1,22 @@
-// 背景樣式
-body {
-  background: linear-gradient(135deg, #eef5ff, #86b6f6);
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* 設置全局字體與背景 */
+html, body {
+  height: 100%; /* 確保背景高度為瀏覽器高度 */
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eef5ff, #86b6f6);
 }
 
-// 表單容器
-.login-container {
-  background: #ffffff;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  max-width: 400px;
+/* 頁面內容最小高度設置 */
+.container {
+  min-height: 100vh; /* 確保內容區塊至少撐滿視窗高度 */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* 調整內容布局 */
+  padding: 20px;
 }
 
-// 表單標題
-.login-container h1 {
-  color: #333;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-// 按鈕樣式
-.login-container .btn-primary {
-  background-color: #6a11cb;
-  border-color: #6a11cb;
-  transition: background-color 0.3s ease;
-}
-
-.login-container .btn-primary:hover {
-  background-color: #2575fc;
-  border-color: #2575fc;
-}
-
-// 表單浮動標籤
-.form-floating label {
-  color: #666;
-}
-
-// 標題樣式
-h2 {
-  color: #343a40;
-  margin-bottom: 20px;
-}
-
-// 表格樣式
+/* 表格間距與調整 */
 .table {
   border-collapse: collapse;
   width: 100%;
@@ -68,7 +34,7 @@ h2 {
   background-color: #e9ecef;
 }
 
-// 按鈕樣式
+/* 按鈕樣式 */
 .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
@@ -79,22 +45,22 @@ h2 {
   background-color: #0056b3;
 }
 
-// 卡片圖片樣式
+/* 卡片圖片樣式 */
 .card-img-top {
   height: 250px;
-  object-fit: cover; /* 保持主圖比例並裁切 */
+  object-fit: cover;
   width: 100%;
 }
 
-// 多圖圖片的樣式
+/* 多圖圖片樣式 */
 .img-thumbnail {
   width: 100px;
   height: 100px;
-  object-fit: cover; /* 保持圖片比例並裁切 */
-  margin: 5px; /* 多圖之間的間距 */
+  object-fit: cover;
+  margin: 5px;
 }
 
-// 卡片連結樣式
+/* 卡片連結樣式 */
 a.card {
   text-decoration: none;
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
@@ -105,46 +71,12 @@ a.card:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-// 整體間距與調整
-.container {
-  padding: 20px;
+/* 調整間距 */
+h2 {
+  color: #343a40;
+  margin-bottom: 20px;
 }
 
-/* 針對產品細節卡片的自定義樣式 */
-.product-details-card {
-  max-width: 600px; /* 控制最大寬度 */
-  margin: 0 auto; /* 水平居中 */
-}
-
-.product-details-card .card-body {
-  padding: 20px; /* 調整卡片內邊距 */
-}
-
-.product-details-card img {
-  max-width: 100%; /* 確保圖片自適應卡片寬度 */
-  height: auto; /* 保持圖片比例 */
-}
-
-.product-details-card h5 {
-  font-size: 1.25rem; /* 控制標題大小 */
-}
-
-.product-details-card p {
-  font-size: 1rem; /* 統一描述文字的大小 */
-}
-
-/* 控制表格的外觀 */
-.product-details-card table {
-  width: 100%; /* 使表格佔滿卡片 */
-  margin-top: 20px;
-}
-
-.product-details-card th,
-.product-details-card td {
-  padding: 10px; /* 表格內容的內邊距 */
-  text-align: left;
-}
-
-.product-details-card .badge {
-  font-size: 0.9rem; /* 控制徽章字體大小 */
+.container .row {
+  flex: 1; /* 撐滿剩餘空間 */
 }

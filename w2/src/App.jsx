@@ -47,45 +47,35 @@ function ProductList({ products, onViewDetails, checkLogin }) {
 
 function ProductDetails({ product }) {
   return product ? (
-    <div className="product-details-card card mb-3 shadow">
-      <img
-        src={product.imageUrl || ""}
-        className="card-img-top primary-image"
-        alt="主圖"
-      />
-      <div className="card-body">
-        <h5 className="card-title d-flex align-items-center">
-          {product.title}
-          <span className="badge bg-info ms-2">{product.category}</span>
-        </h5>
-        <p className="card-text">商品描述：{product.description}</p>
-        <p className="card-text">商品內容：{product.content}</p>
-
-        {/* 原價欄位 */}
-        <p className="card-text text-muted">
-          原價：{product.originPrice || "N/A"} 元
-        </p>
-
-        {/* 售價欄位 */}
-        <p className="card-text text-danger">
-          售價：{product.price} 元 / {product.unit}
-        </p>
-
-        {/* 更多圖片 */}
-        <h5 className="mt-3">更多圖片：</h5>
-        <div className="d-flex flex-wrap">
-          {Array.isArray(product.imagesUrl) && product.imagesUrl.length > 0 ? (
-            product.imagesUrl.map((img, index) => (
+    <div>
+      <h2>單一產品細節</h2>
+      <div className="card mb-3 shadow">
+        <img
+          src={product.imageUrl}
+          className="card-img-top primary-image"
+          alt="主圖"
+        />
+        <div className="card-body">
+          <h5 className="card-title d-flex align-items-center">
+            {product.title}
+            <span className="badge bg-info ms-2">{product.category}</span>
+          </h5>
+          <p className="card-text">商品描述：{product.description}</p>
+          <p className="card-text">商品內容：{product.content}</p>
+          <p className="card-text text-danger">
+            售價：{product.price} 元 / {product.unit}
+          </p>
+          <h5 className="mt-3">更多圖片：</h5>
+          <div className="d-flex flex-wrap">
+            {product.imagesUrls.map((img, index) => (
               <img
                 key={index}
                 src={img}
                 className="img-thumbnail"
                 alt={`圖片 ${index + 1}`}
               />
-            ))
-          ) : (
-            <p>暫無更多圖片</p>
-          )}
+            ))}
+          </div>
         </div>
       </div>
     </div>
