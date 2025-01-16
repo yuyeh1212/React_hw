@@ -2,9 +2,9 @@
 
 ## Week 1
 
-- [產品列表](https://yuyeh1212.github.io/React_hw/w1/index.html)
-- [BMI Kata](https://yuyeh1212.github.io/React_hw/w1_BMIKata/index.html)
-- [課程練習](https://yuyeh1212.github.io/React_hw/w1_Kata/index.html)
+- [產品列表](https://yuyeh1212.github.io/ReactTask/w1/index.html)
+- [BMI Kata](https://yuyeh1212.github.io/ReactTask/w1_BMIKata/index.html)
+- [課程練習](https://yuyeh1212.github.io/ReactTask/w1_Kata/index.html)
 
 1. 1/2 上傳
 2. 1/11 修正
