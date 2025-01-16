@@ -15,12 +15,13 @@
 
 ## Week 2
 
-- [API 串接](https://yuyeh1212.github.io/React_hw/w2/upload-data.html)
-- [API 內容](https://ec-course-api.hexschool.io/v2/api/yuyeh/products/all)
+- [Git Repo](https://github.com/yuyeh1212/React_hw/tree/main/w2)
+- [API 串接](https://yuyeh1212.github.io/React_hw/)
+- [API 內容](https://ec-course-api.hexschool.io/v2/api/yuyeh1212/products/all)
 
 1. 1/10 上傳
-2. 1/11 修正
-   1. 12
+2. 1/17 修正
+   1. 未用vite，更新重作
 
 ## Week 3(待更新)
 
