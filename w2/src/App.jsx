@@ -119,7 +119,6 @@ function App() {
       .post(`${API_URL}/v2/admin/signin`, account)
       .then((res) => {
         const { token, expired } = res.data;
-        console.log(token, expired);
         document.cookie = `hexToken=${token}; expires=${new Date(
           expired
         )}; path=/; SameSite=None; Secure`;
