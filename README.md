@@ -1,33 +1,14 @@
-# 作業紀錄
+<h1 class="text-center">
+第二周作業
+</h1>
 
-## Week 1
+<h3>完成產品表單</h3>
+<ul>
+    <li>產品明細</li>
+    <li>確認登入</li>
+</ul>
 
-- [產品列表](https://yuyeh1212.github.io/ReactTask/w1/index.html)
-- [BMI Kata](https://yuyeh1212.github.io/ReactTask/w1_BMIKata/index.html)
-- [課程練習](https://yuyeh1212.github.io/ReactTask/w1_Kata/index.html)
+<h3>連結</h3>
 
-1. 1/2 上傳
-2. 1/11 修正
-   1. 新增 object-fit 樣式
-   2. 修正 products.map(item => product)來更符合語意化
-   3. 修正 ReactDOM.render => ReactDOM.createRoot
-   4. 新增 BMI_Kata css 樣板
-
-## Week 2
-
-- [Git Repo](https://github.com/yuyeh1212/React_hw/tree/main/w2)
-- [API 串接](https://yuyeh1212.github.io/React_hw/)
-- [API 內容](https://ec-course-api.hexschool.io/v2/api/yuyeh1212/products/all)
-
-1. 1/10 上傳
-2. 1/17 修正
-   1. 未用vite，更新重作
-
-## Week 3(待更新)
-
-- [API 串接](https://yuyeh1212.github.io/React_hw/w2/upload-data.html)
-- [API 內容](https://ec-course-api.hexschool.io/v2/api/yuyeh/products/all)
-
-1. 1/10 上傳
-2. 1/11 修正
-   1. 12
+<a href="https://yuyeh1212.github.io/React_hw/" traget="_blank">Github Pages</a>
+<a href="https://github.com/yuyeh1212/React_hw" traget="_blank">GitHub Repo</a>
