@@ -10,5 +10,5 @@
 
 <h3>連結</h3>
 
-<a href="https://yuyeh1212.github.io/React_hw/" traget="_blank">Github Pages</a>
+<a href="https://yuyeh1212.github.io/React_hw/" traget="_blank">Github Pages</a>  
 <a href="https://github.com/yuyeh1212/React_hw" traget="_blank">GitHub Repo</a>
